@@ -1,0 +1,58 @@
+/* this css was produced by screenwise media query liabray official website will be released by mid 2024 */
+.container{
+    max-width: 1536px;
+    margin-inline: auto;
+    padding-inline: 4vw;
+}
+
+
+
+/* 2xl */
+@media (max-width: 1536px) {
+    .container{
+        max-width: 1280px;
+    }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+    .container{
+        max-width: 1024px;
+    }
+}
+
+
+/* lg */
+@media (max-width:1024px) {
+    .logo{
+        display: none;
+    }
+    .container{
+        max-width: 768px;
+    }
+}
+
+/* md */
+@media (max-width:768px) {
+  
+    .container{
+        max-width: 640px;
+    }
+}
+
+/* sm */
+@media (max-width:640px) {
+
+    .container{
+        max-width: 475px;
+    }
+}
+
+/* xs */
+@media (max-width:475px) {
+
+   
+    .container{
+        max-width: 100%;
+    }
+}
